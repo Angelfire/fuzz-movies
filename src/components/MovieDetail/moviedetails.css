@@ -1,0 +1,94 @@
+.movie-detail {
+  position: relative;
+}
+
+.movie-detail__back {
+  background: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  position: absolute;
+  right: -9px;
+  text-align: center;
+  top: -32px;
+  width: 32px;
+  z-index: 9;
+}
+
+.movie-detail__info {
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  color: #8b9095;
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px 20px 10px 190px;
+}
+
+.movie-detail__poster {
+  animation: float 6s ease-in-out infinite;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  left: -30px;
+  position: absolute;
+  top: -50px;
+  transform: translatey(0px);
+  z-index: 1;
+}
+
+.movie-detail__title {
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  font-size: 23px;
+  padding: 0 20px 0 190px;
+  margin-top: 20px;
+}
+
+.movie-detail__overview {
+  animation-name: moveInleft;
+  animation-duration: 1s;
+  color: #8b9095;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0 20px 20px 190px;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 3px 9px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 12px 9px 0px rgba(0,0,0,0.2);
+    transform: translatey(-10px);
+  }
+  100% {
+    box-shadow: 0 3px 9px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

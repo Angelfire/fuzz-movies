@@ -1,0 +1,23 @@
+.add-favorite {
+  animation-name: moveInleft;
+  animation-duration: 1s;
+  background: linear-gradient(90deg, #E4761F, #FF8B32);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px 17px;
+  margin: 20px 0 20px 190px;
+  text-transform: uppercase;
+}
+
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

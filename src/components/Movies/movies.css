@@ -1,0 +1,23 @@
+.movies-container {
+  box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 550px;
+  overflow: hidden;
+  padding: 20px 28px;
+  scrollbar-color: rgba(0,0,0,.2) hsla(0,0%,100%,.1);
+  scrollbar-width: thin;
+}
+
+.movies-container:hover {
+  overflow-y: scroll;
+}
+
+.movies-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.movies-container::-webkit-scrollbar-thumb {
+  background-color: rgba(221, 221, 221, 0.9);
+  border-radius: 20px;
+}

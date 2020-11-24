@@ -1,0 +1,8 @@
+.favorite-container {
+  position: relative;
+}
+
+.favorite-container h2 {
+  font-size: 23px;
+  margin: 20px 0 0 34px;
+}

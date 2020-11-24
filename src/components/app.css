@@ -1,0 +1,8 @@
+.app-container {
+  align-items: center;
+  background: radial-gradient(ellipse farthest-corner at center top, #ffee75, #ff8930);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}

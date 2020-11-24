@@ -1,0 +1,29 @@
+.searchbox-container {
+  padding: 30px;
+}
+
+.sb-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sb-form__btn {
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 5px 9px;
+  transition: background-color 250ms;
+}
+
+.sb-form__btn:hover {
+  color: #333;
+  background-color: #ccc;
+}
+
+.sb-form__search {
+  border: none;
+  font-size: 14px;
+  flex-grow: 1;
+  outline: none;
+}

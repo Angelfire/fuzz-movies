@@ -1,0 +1,9 @@
+.movuzz-header {
+  background-color: #ff8930;
+  border-radius: 20px;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  color: white;
+  font-size: 64px;
+  margin-bottom: 32px;
+  padding: 10px 20px;
+}

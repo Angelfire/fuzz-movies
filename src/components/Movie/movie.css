@@ -1,0 +1,32 @@
+.movie {
+  padding: 10px 6px;
+  position: relative;
+  width: 131px;
+}
+
+.movie__poster {
+  border-radius: 4px;
+  height: 197px;
+  margin-bottom: 6px;
+  width: 131px;
+  transition: all 500ms ease-out;
+  z-index: 2;
+}
+
+.movie__poster:hover {
+  opacity: 0.9;
+  transition: all 200ms ease-out;
+  transform: scale(1.3);
+  z-index: 12;
+}
+
+.movie__title {
+  color: #525661;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.movie__title a {
+  color: #8b9095;
+  text-decoration: none;
+}
